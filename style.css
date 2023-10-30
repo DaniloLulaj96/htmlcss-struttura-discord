@@ -1,0 +1,44 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.contanier{
+    width: 70%;
+    max-height: 1152px;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+}
+
+.logo, .link, .login{
+    background-color: #d9a41f;
+
+}
+
+.debug header{background-color: #add8e6;}
+
+.site_header{padding: 5rem;}
+
+.col-2{width: calc((100%/12)*2);
+}
+
+[class*="col-"]{border: 1px dashed black;}
+
+.col-8{width: calc((100%/12)*8);}
+
+.login{display: flex;
+    justify-content: flex-end;
+padding: 1rem;}
+
+.logo{padding: 1rem;}
+
+.links{display: flex;
+justify-content: center;}
+
+ul{list-style: none;}
+
+li{padding: 1rem;}
+
+.section1{background-color: blue;}
