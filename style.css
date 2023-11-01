@@ -91,3 +91,20 @@ margin-bottom: 2rem;}
 
 .row_section4{    display: flex;
     justify-content: center}
+
+.section5{background-color: #d3d3d3;}
+
+.container_section5{
+    width: 70%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.row_section5{
+    display: flex;
+    justify-content: center;
+}
+
+.col-12{width: 1152px;
+height: 20rem;
+background-color: green;}
