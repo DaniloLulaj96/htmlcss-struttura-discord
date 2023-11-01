@@ -41,4 +41,17 @@ ul{list-style: none;}
 
 li{padding: 1rem;}
 
-.section1{background-color: blue;}
+.section1{background-color: #00008b;
+padding: 2rem;}
+
+.container_section1{width: 70%;
+max-width: 1152px;
+margin: auto;}
+
+.row_section1{display: flex;
+justify-content: center;}
+
+.col-10{width: calc((100%/12)*10);
+height: 20rem;
+background-color: #ee82ee;}
+
