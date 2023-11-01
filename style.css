@@ -73,3 +73,21 @@ height: 20rem;
 background-color: pink;
 margin-top: 2rem;
 margin-bottom: 2rem;}
+
+.section3{background-color: #d3d3d3;}
+
+.container_section3{
+    width: 70%;
+    max-width: 1152px;
+    margin: auto;}
+
+.row_section3{
+    display: flex;
+    justify-content: center;}
+
+.container_section4{    width: 70%;
+    max-width: 1152px;
+    margin: auto;}
+
+.row_section4{    display: flex;
+    justify-content: center}
