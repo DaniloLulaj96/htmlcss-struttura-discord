@@ -2,7 +2,7 @@
 padding: 0;
 box-sizing: border-box;}
 
-.contanier{
+.container{
     width: 70%;
     max-height: 1152px;
     margin: 0;
@@ -55,3 +55,21 @@ justify-content: center;}
 height: 20rem;
 background-color: #ee82ee;}
 
+.container_section2{width: 70%;
+max-width: 1152px;
+margin: auto;}
+
+.row_section2{display: flex;
+justify-content: center;}
+
+.col-7{width: calc((100%/12)*7);
+height: 20rem;
+background-color: blue;
+margin-top: 2rem;
+margin-bottom: 2rem;}
+
+.col-5{width: calc((100%/12)*5);
+height: 20rem;
+background-color: pink;
+margin-top: 2rem;
+margin-bottom: 2rem;}
