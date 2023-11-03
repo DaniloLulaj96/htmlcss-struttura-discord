@@ -134,16 +134,21 @@ justify-content: center;}
 
 .col12_bottom-footer{background-color: #7fffd4;
 width: calc((100%/12)*12);
-height: 3rem;
-display: flex;}
+height: 3rem;}
 
 .col-logo-bottom-footer{background-color: pink;
 width: calc((100%/12)*1);
-height: 0.5rem;}
+height: 1.5rem;
+float: left;
+margin-top: 1rem;
+text-align: left;}
 
-.col-regisrati-bottom-footer{background-color: pink;
+.col-registrati-bottom-footer{float: right;
+background-color: pink;
 width: calc((100%/12)*1);
-height: 0.5rem;}
+height: 1.5rem;
+margin-top: 1rem;
+text-align: right;}
 
 
 
